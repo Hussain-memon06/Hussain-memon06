@@ -1,8 +1,8 @@
 # Hussain
 
-**I build AI systems that ship — agentic workflows, LLM-powered tools, and full-stack applications with real backends and real users in mind.**
+**I build AI systems that ship agentic workflows, LLM-powered tools, and full-stack applications with real backends and real users in mind.**
 
-I work primarily on agentic AI and applied LLM systems: orchestration with LangGraph, retrieval and tool use, structured outputs, human-in-the-loop workflows, and the unglamorous infrastructure that makes these things reliable in production. My background is in business, not CS — I taught myself the fundamentals through Harvard's CS50x and the Stanford / DeepLearning.AI specializations, then moved into building. That path means I think about AI products from both sides: what's technically sound and what actually solves a problem someone will pay for.
+I work primarily on agentic AI and applied LLM systems: orchestration with LangGraph, retrieval and tool use, structured outputs, human-in-the-loop workflows, and the unglamorous infrastructure that makes these things reliable in production. My background is in business, not CS, I taught myself the fundamentals through Harvard's CS50x and the Stanford / DeepLearning.AI specializations, then moved into building. That path means I think about AI products from both sides: what's technically sound and what actually solves a problem someone will pay for.
 
 Currently focused on agentic systems for sales, research, and business automation.
 
@@ -10,7 +10,7 @@ Currently focused on agentic systems for sales, research, and business automatio
 
 ## Featured Projects
 
-### 🔹 Dossify — AI Lead Research Agent with Human-in-the-Loop
+### Dossify,  AI Lead Research Agent with Human-in-the-Loop
 An agentic B2B lead research system. Paste a company URL; the agent researches the company, builds a structured dossier, identifies a likely decision-maker, detects buying signals (hiring, funding, launches, partnerships), scores against a user-defined ICP, drafts a personalized outreach email, and pauses at a human approval gate before sending.
 
 Built as a multi-step LangGraph workflow with durable pause/resume, source-verified anti-hallucination checks, and observability baked in.
@@ -18,8 +18,8 @@ Built as a multi-step LangGraph workflow with durable pause/resume, source-verif
 **Stack:** LangGraph · LangChain · FastAPI · Next.js · TypeScript · Postgres/Supabase · Tavily · Hunter.io · SendGrid · Langfuse · Docker · Railway · Vercel
 **Repo:** [→ Dossify](https://github.com/Hussain-memon06/saas-lead-agent)
 
-### 🔹 Sales Lead Qualifier — ICP Scoring & Outreach Generator
-A lead qualification tool that scrapes a company's site, researches the business, scores it against a configurable Ideal Customer Profile, and generates a tailored outreach email. Returns a Hot/Warm/Cold qualification with a confidence score derived from actual evidence density — not LLM guesswork.
+### Sales Lead Qualifier, ICP Scoring & Outreach Generator
+A lead qualification tool that scrapes a company's site, researches the business, scores it against a configurable Ideal Customer Profile, and generates a tailored outreach email. Returns a Hot/Warm/Cold qualification with a confidence score derived from actual evidence density not LLM guesswork.
 
 Designed deliberately so the **scoring is deterministic and separated from the LLM**. The model is used for understanding and writing; the score itself is auditable and reproducible. Handles unscrapable sites with honest fallback output instead of hallucinating. Supports single-lead and bulk CSV processing.
 
@@ -32,12 +32,12 @@ Designed deliberately so the **scoring is deterministic and separated from the L
 
 Two from-scratch implementations I built to understand what's actually happening inside the models I use day-to-day:
 
-- **GPT from scratch (PyTorch)** — token + positional embeddings, multi-head self-attention, transformer blocks, training loop, generation. Inspired by Karpathy's tutorial.
-- **Micrograd** — scalar autograd engine and MLP from first principles: computational graphs, backprop, neuron/layer/MLP abstractions, gradient descent.
+- **GPT from scratch (PyTorch)** - token + positional embeddings, multi-head self-attention, transformer blocks, training loop, generation. Inspired by Karpathy's tutorial.
+- **Micrograd** - scalar autograd engine and MLP from first principles: computational graphs, backprop, neuron/layer/MLP abstractions, gradient descent.
 
 These aren't flagship projects, but they're how I built confidence with the internals rather than treating LLMs as opaque APIs.
 
-Earlier: a Flask quiz app built as my CS50x final project — full routing, sessions, templating, and a JS timer. Useful context for my software-engineering progression, not a portfolio centerpiece.
+Earlier: a Flask quiz app built as my CS50x final project, full routing, sessions, templating, and a JS timer. Useful context for my software-engineering progression, not a portfolio centerpiece.
 
 ---
 
