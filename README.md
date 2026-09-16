@@ -10,27 +10,17 @@ My current work focuses on building and understanding AI systems involving LangG
 
 ---
 
-## Featured Projects
+## Featured Project
 
-### AI Lead Research Agent (Dossify) — Agentic Workflow with Human Approval
+### AI Lead Research Agent — Agentic Workflow with Human Approval
 
-An agentic B2B research workflow designed to research companies, identify relevant decision-makers and buying signals, apply defined scoring criteria, and generate outreach drafts that require human approval before execution.
+An agentic AI workflow designed to research companies, identify relevant decision-makers and buying signals, apply defined scoring criteria, and generate outreach drafts that require human approval before execution.
 
-The system is built as a multi-stage LangGraph workflow with persistent state for pause/resume functionality and validation checks designed to identify unreliable model outputs.
+The system is built as a multi-stage LangGraph workflow with persistent state for pause/resume functionality, structured outputs, tool use, and validation checks designed to identify unreliable model outputs.
 
 **Stack:** LangGraph · LangChain · FastAPI · Next.js · TypeScript · PostgreSQL/Supabase · Tavily · Hunter.io · SendGrid · Langfuse · Docker · Railway · Vercel
 
-**Repo:** [→ Dossify](https://github.com/Hussain-memon06/saas-lead-agent)
-
-### Sales Lead Qualifier — ICP Scoring & Outreach Generator
-
-A lead qualification project that collects information about a company, evaluates it against configurable Ideal Customer Profile criteria, and generates a tailored outreach draft.
-
-The scoring logic is kept separate from the language model so that qualification decisions are based on defined criteria rather than only model-generated judgement. The project also includes fallback handling when sufficient source information is unavailable and supports both individual and bulk CSV processing.
-
-**Stack:** Next.js · FastAPI · TypeScript · Python · SQLAlchemy · SQLite · Tailwind · Gemini / OpenAI · Vercel · Railway
-
-**Repo:** [→ Sales Lead Qualifier](https://github.com/Hussain-memon06/sales-lead-qualifier)
+**Links:** [GitHub Repository](https://github.com/Hussain-memon06/saas-lead-agent) · [Live Demo](https://agent.hussainflow.com/)
 
 ---
 
